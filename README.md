@@ -4,7 +4,7 @@
 
 Este proyecto corresponde al desarrollo de un **Sistema de Gestión de Hotel y Reservas**, cuyo objetivo es organizar y administrar la información relacionada con huéspedes, reservas, habitaciones, estadías, servicios, consumos, cuentas y pagos.
 
-El sistema busca representar mediante una base de datos los principales procesos del negocio hotelero, manteniendo la información relacionada de forma estructurada y permitiendo aplicar reglas de negocio mediante **PL/SQL**.
+El sistema busca representar mediante una base de datos los principales procesos del negocio hotelero, manteniendo la información relacionada de forma estructurada y aplicando reglas de negocio mediante SQL y PL/SQL.
 
 ---
 
@@ -16,17 +16,17 @@ Diseñar e implementar una solución de base de datos que permita gestionar de m
 
 ## 🔄 Flujo principal del negocio
 
-El proceso central del sistema se puede representar de la siguiente manera:
+El proceso central del sistema se representa de la siguiente manera:
 
 **Huésped → Reserva → Habitación → Estadía → Servicios y Consumos → Cuenta → Pago**
 
-Este flujo representa cómo se relacionan las principales entidades del negocio hotelero y sirve como base para el desarrollo de las funcionalidades del sistema.
+Este flujo representa la relación entre los principales procesos del negocio hotelero.
 
 ---
 
 ## 🗄️ Base de datos
 
-La solución contempla diferentes entidades relacionadas con la operación del hotel, entre ellas:
+La solución contempla entidades relacionadas con la operación del hotel, entre ellas:
 
 - Huéspedes
 - Empleados
@@ -43,13 +43,11 @@ La solución contempla diferentes entidades relacionadas con la operación del h
 - Pagos
 - Auditoría de reservas
 
-La base de datos se encuentra desarrollada utilizando **Oracle SQL y PL/SQL**.
+La base de datos se desarrolla utilizando **Oracle SQL y PL/SQL**.
 
 ---
 
 ## 📚 Estructura del proyecto
-
-El repositorio se organiza según las distintas etapas de evaluación del proyecto:
 
 ```text
 Proyecto-Base-de-Datos-Hotel/
